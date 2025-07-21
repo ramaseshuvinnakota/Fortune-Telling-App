@@ -27,7 +27,7 @@ root.title("Fortune Teller")
 root.geometry("1080x1080")
 
 #set image as background
-image = Image.open("E:\Images\Zoltar Speaks.png")
+image = Image.open("./img/Zoltar Speaks.png")
 photo = ImageTk.PhotoImage(image)
 
 background_label = tk.Label(root, image=photo)
